@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cb_kotlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlin"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@id/cb_android"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cb_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:layout_below="@id/cb_kotlin"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/btn_sonuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hangisini Seviyorsun"
+            android:layout_below="@id/cb_android"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

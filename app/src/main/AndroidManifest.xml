@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.umiitkose.androidexampleswithkotlin">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".example.materialdesign.recyclerview.RecyclerView"></activity>
+        <activity android:name=".example.activity.lifecycle.LifecycleActivity" />
+        <activity android:name=".example.intent.OneActivity" />
+        <activity android:name=".example.sharedprefences.SharedPreferencesActivity" />
+        <activity android:name=".example.intent.TwoActivity" />
+        <activity android:name=".example.menu.popup.PopupMenuActivity" />
+        <activity android:name=".example.materialdesign.toolbar.ToolbarActivity" />
+        <activity android:name=".example.menu.context.ContextMenuActivity" />
+        <activity android:name=".example.materialdesign.snackbar.SnackBarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

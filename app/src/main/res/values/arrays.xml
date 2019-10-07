@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lessons_array">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>IOS</item>
+        <item>PHP</item>
+        <item>Php</item>
+    </string-array>
+
+</resources>

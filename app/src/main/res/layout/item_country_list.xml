@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/img_country_flag"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:src="@drawable/turkey"
+            />
+    <TextView
+            android:id="@+id/tv_country_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="Türkiye"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            />
+</LinearLayout>
