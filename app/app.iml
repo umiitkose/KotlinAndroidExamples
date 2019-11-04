@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/home/umitkose/AndroidExamplesWithKotlin/app/src/debug/java;/home/umitkose/AndroidExamplesWithKotlin/app/src/release/kotlin;/home/umitkose/AndroidExamplesWithKotlin/app/src/release/java;/home/umitkose/AndroidExamplesWithKotlin/app/src/debugAndroidTest/kotlin;/home/umitkose/AndroidExamplesWithKotlin/app/src/debugUnitTest/kotlin;/home/umitkose/AndroidExamplesWithKotlin/app/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/home/umitkose/AndroidExamplesWithKotlin/KotlinAndroidExamples/app/src/debug/java;/home/umitkose/AndroidExamplesWithKotlin/KotlinAndroidExamples/app/src/release/kotlin;/home/umitkose/AndroidExamplesWithKotlin/KotlinAndroidExamples/app/src/release/java;/home/umitkose/AndroidExamplesWithKotlin/KotlinAndroidExamples/app/src/debugAndroidTest/kotlin;/home/umitkose/AndroidExamplesWithKotlin/KotlinAndroidExamples/app/src/debugUnitTest/kotlin;/home/umitkose/AndroidExamplesWithKotlin/KotlinAndroidExamples/app/src/releaseUnitTest/kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
